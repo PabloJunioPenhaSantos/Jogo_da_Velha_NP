@@ -1,6 +1,6 @@
-package controller;
+package Controller;
 
-import model.*;
+import Model.*;
 import view.ConsoleView;
 
 public class MatchController {
@@ -103,8 +103,8 @@ public class MatchController {
         switch (r) {
             case X_VENCEU -> view.mostrarMensagem("Vitória de " + p1 + "(X) !");
             case O_VENCEU -> view.mostrarMensagem("Vitória de " + p2 + "(O) !");
-            case EMPATE -> view.mostrarMensagem("Empate!");
-            default -> view.mostrarMensagem("Erro ao determinar resultado.");
+            case EMPATE -> view.mostrarMensagem("Empate paizao!");
+            default -> view.mostrarMensagem("Erro paizao");
         }
     }
 

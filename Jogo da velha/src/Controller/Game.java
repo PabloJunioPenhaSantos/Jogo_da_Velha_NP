@@ -1,6 +1,6 @@
-package controller;
+package Controller;
 
-import model.*;
+import Model.*;
 
 import view.ConsoleView;
 public class Game {

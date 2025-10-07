@@ -1,4 +1,4 @@
-package model;
+package Model;
 
 public enum Symbol {
     X, O, VAZIO;
